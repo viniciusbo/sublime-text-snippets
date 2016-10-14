@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+import { connect } from 'react-redux';
+import ${1:MyComponent}Container from '../components/${1:MyComponent}';
+
+const mapStateToProps = (state, ownProps) => {
+  return {${2}};
+};
+
+const mapDispatchToProps = (dispatch, ownProps) => {
+  return {${3}};
+};
+
+const ${1:MyComponent}Container = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(${1:MyComponent});
+
+export default ${1:MyComponent}Container;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rdc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
