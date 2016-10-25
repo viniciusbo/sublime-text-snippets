@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 it('should ${1:}', function() {
-  assert.${2:equal}(${3:false}, ${4:true});
+  ${2:assert.equal}(${3:false}, ${4:true});
 });
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
