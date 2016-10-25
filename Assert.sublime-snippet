@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+it('should ${1:}', function() {
+  assert.${2:equal}(${3:false}, ${4:true});
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>it</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
